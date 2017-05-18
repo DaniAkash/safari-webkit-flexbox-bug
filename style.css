@@ -1,0 +1,24 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.content1 {
+    flex: 2;
+}
+.content1a {
+    background-color: red;
+    height: 250px;
+    width: 200px;
+}
+.content2 {
+    flex: 1;
+}
+.content2a {
+    background-color: green;
+    height: 250px;
+    width: 200px;
+}
